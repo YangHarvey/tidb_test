@@ -13,3 +13,7 @@ sudo make install
 # 验证
 sysbench --version
 sysbench --help | grep mysql-ssl
+
+
+# install mysql client
+sudo dnf install -y mariadb105

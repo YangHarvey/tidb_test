@@ -9,7 +9,7 @@ TABLES="${TABLES:-100}"
 TABLE_SIZE="${TABLE_SIZE:-20000000}"
 THREADS_LIST="${THREADS_LIST:-32 64 128 256 512 1024 2048}"
 WORKLOADS="${WORKLOADS:-oltp_read_write oltp_read_only oltp_point_select oltp_update_non_index oltp_update_index oltp_write_only}"
-PREPARE_THREADS="${PREPARE_THREADS:-256}"
+PREPARE_THREADS="${PREPARE_THREADS:-64}"
 WARMUP_TIME="${WARMUP_TIME:-120}"
 RUN_TIME="${RUN_TIME:-600}"
 REPORT_INTERVAL="${REPORT_INTERVAL:-1}"
@@ -17,7 +17,7 @@ RAND_TYPE="${RAND_TYPE:-uniform}"
 PERCENTILE="${PERCENTILE:-95}"
 HISTOGRAM="${HISTOGRAM:-on}"
 COOLDOWN_SECONDS="${COOLDOWN_SECONDS:-30}"
-MYSQL_IGNORE_ERRORS="${MYSQL_IGNORE_ERRORS:-1213,1205,9007,8028}"
+MYSQL_IGNORE_ERRORS="${MYSQL_IGNORE_ERRORS:-1213,1205,9007,8028,8252}"
 THREAD_INIT_TIMEOUT="${THREAD_INIT_TIMEOUT:-240}"
 SYSBENCH_LUA_DIR="${SYSBENCH_LUA_DIR:-}"
 
@@ -250,23 +250,52 @@ run_benchmarks() {
   echo "Summary: $summary_file"
 }
 
-create_database() {
-  command -v mysql >/dev/null 2>&1 || {
-    echo "mysql client not found; skip database creation." >&2
-    exit 1
-  }
-
-  local ssl_args=("--ssl-mode=REQUIRED")
-  if [[ -n "$DB_SSL_CA" ]]; then
-    ssl_args+=("--ssl-ca=$DB_SSL_CA")
+mysql_ssl_args() {
+  local args=()
+  if mysql --help 2>/dev/null | grep -q -- '--ssl-mode'; then
+    args+=("--ssl-mode=REQUIRED")
+  else
+    args+=("--ssl")
   fi
+  if [[ -n "$DB_SSL_CA" ]]; then
+    args+=("--ssl-ca=$DB_SSL_CA")
+  fi
+  printf '%s\0' "${args[@]}"
+}
+
+run_mysql_cmd() {
+  local sql="$1"
+  local ssl_args=()
+  while IFS= read -r -d '' arg; do
+    ssl_args+=("$arg")
+  done < <(mysql_ssl_args)
 
   MYSQL_PWD="$DB_PASSWORD" mysql \
     --host="$DB_HOST" \
     --port="$DB_PORT" \
     --user="$DB_USER" \
     "${ssl_args[@]}" \
-    --execute="CREATE DATABASE IF NOT EXISTS \`$DB_NAME\`;"
+    --execute="$sql"
+}
+
+create_database() {
+  command -v mysql >/dev/null 2>&1 || {
+    echo "mysql client not found; skip database creation." >&2
+    exit 1
+  }
+
+  run_mysql_cmd "CREATE DATABASE IF NOT EXISTS \`$DB_NAME\`;"
+}
+
+setup_db() {
+  command -v mysql >/dev/null 2>&1 || {
+    echo "mysql client not found; skip setup." >&2
+    exit 1
+  }
+
+  echo "Setting max_prepared_stmt_count = 2097152 ..."
+  run_mysql_cmd "SET GLOBAL max_prepared_stmt_count = 2097152;"
+  echo "Setup complete."
 }
 
 usage() {
@@ -275,9 +304,10 @@ Usage: ./run_sysbench_tidbx.sh <action>
 
 Actions:
   create-db  Create benchmark database if it does not exist, requires mysql client
+  setup      Set global variables (e.g. max_prepared_stmt_count) for high-concurrency benchmark
   prepare    Create sysbench tables and load data
   run        Run warmup + formal benchmark matrix
-  all        Run prepare, then run
+  all        Run setup, prepare, then run
   cleanup    Drop sysbench tables
   help       Show this help
 
@@ -314,9 +344,10 @@ main() {
 
   case "$action" in
     create-db) create_database ;;
+    setup) setup_db ;;
     prepare) prepare_data ;;
     run) run_benchmarks ;;
-    all) prepare_data; run_benchmarks ;;
+    all) setup_db; prepare_data; run_benchmarks ;;
     cleanup) cleanup_data ;;
     *) usage; exit 1 ;;
   esac
