@@ -1,0 +1,1463 @@
+sysbench 1.1.0-3ceba0b (using bundled LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 2048
+Warmup time: 5s
+Report intermediate results every 1 second(s)
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2026: TLS/SSL error: Connection reset by peer (104)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2026: TLS/SSL error: Connection reset by peer (104)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2026: TLS/SSL error: Connection reset by peer (104)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2026: TLS/SSL error: Connection reset by peer (104)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2026: TLS/SSL error: Connection reset by peer (104)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2026: TLS/SSL error: Connection reset by peer (104)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2026: TLS/SSL error: Connection reset by peer (104)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: mysql_stmt_prepare() failed
+FATAL: MySQL error: 2026 "TLS/SSL error: Connection reset by peer (104)"
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:291: SQL API error
+FATAL: mysql_stmt_prepare() failed
+FATAL: MySQL error: 2026 "TLS/SSL error: Connection reset by peer (104)"
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:291: SQL API error
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2026: TLS/SSL error: Connection reset by peer (104)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2026: TLS/SSL error: Connection reset by peer (104)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2026: TLS/SSL error: Connection reset by peer (104)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2026: TLS/SSL error: Connection reset by peer (104)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 2 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 2 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 3 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 2 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 2 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 2 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 4 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 3 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 2 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 3 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 2 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 3 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 2 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 2 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 2 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 2 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 3 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 2 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 2 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 2 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 2 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 2 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+(last message repeated 1 times)
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+(last message repeated 1 times)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: unable to connect to MySQL server on host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com', port 4000, aborting...
+FATAL: error 2005: Unknown server host 'tidb-lokivo2bjz88.yrltlr2bjxx9.clusters.tidb-cloud.com' (-2)
+FATAL: `thread_init' function failed: /usr/local/share/sysbench/oltp_common.lua:356: connection creation failed
+FATAL: Worker threads failed to initialize within 240 seconds!

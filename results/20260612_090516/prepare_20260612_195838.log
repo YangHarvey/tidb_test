@@ -1,0 +1,580 @@
+sysbench 1.1.0-3ceba0b (using bundled LuaJIT 2.1.0-beta3)
+
+Initializing worker threads...
+
+Creating table 'sbtest8'...
+Creating table 'sbtest2'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest8' already exists) for query 'CREATE TABLE sbtest8(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest8' already exists
+Creating table 'sbtest13'...
+Creating table 'sbtest12'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest2' already exists) for query 'CREATE TABLE sbtest2(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest2' already exists
+Creating table 'sbtest24'...
+Creating table 'sbtest14'...
+Creating table 'sbtest26'...
+Creating table 'sbtest25'...
+Creating table 'sbtest36'...Creating table 'sbtest35'...Creating table 'sbtest17'...
+
+Creating table 'sbtest22'...
+
+Creating table 'sbtest27'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest13' already exists) for query 'CREATE TABLE sbtest13(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+Creating table 'sbtest21'...
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest13' already exists
+Creating table 'sbtest32'...
+Creating table 'sbtest5'...
+Creating table 'sbtest9'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest12' already exists) for query 'CREATE TABLE sbtest12(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest12' already exists
+Creating table 'sbtest1'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest26' already exists) for query 'CREATE TABLE sbtest26(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest25' already exists) for query 'CREATE TABLE sbtest25(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+Creating table 'sbtest19'...FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest36' already exists) for query 'CREATE TABLE sbtest36(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest26' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest17' already exists) for query 'CREATE TABLE sbtest17(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest25' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest35' already exists) for query 'CREATE TABLE sbtest35(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest35' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest36' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest17' already exists
+Creating table 'sbtest28'...
+Creating table 'sbtest15'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest27' already exists) for query 'CREATE TABLE sbtest27(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest24' already exists) for query 'CREATE TABLE sbtest24(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest32' already exists) for query 'CREATE TABLE sbtest32(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest27' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest24' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest32' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest22' already exists) for query 'CREATE TABLE sbtest22(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+Creating table 'sbtest7'...
+Creating table 'sbtest31'...
+Creating table 'sbtest23'...
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest22' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest14' already exists) for query 'CREATE TABLE sbtest14(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest21' already exists) for query 'CREATE TABLE sbtest21(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest14' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest21' already exists
+Creating table 'sbtest18'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest15' already exists) for query 'CREATE TABLE sbtest15(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest7' already exists) for query 'CREATE TABLE sbtest7(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest15' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest31' already exists) for query 'CREATE TABLE sbtest31(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest28' already exists) for query 'CREATE TABLE sbtest28(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest7' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest31' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest28' already exists
+Creating table 'sbtest34'...
+Creating table 'sbtest29'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest5' already exists) for query 'CREATE TABLE sbtest5(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest5' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest9' already exists) for query 'CREATE TABLE sbtest9(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest9' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest23' already exists) for query 'CREATE TABLE sbtest23(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest23' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest18' already exists) for query 'CREATE TABLE sbtest18(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+Creating table 'sbtest38'...
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest18' already exists
+Creating table 'sbtest62'...
+Creating table 'sbtest64'...
+Creating table 'sbtest49'...FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest62' already exists) for query 'CREATE TABLE sbtest62(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+Creating table 'sbtest42'...
+
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest29' already exists) for query 'CREATE TABLE sbtest29(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+Creating table 'sbtest53'...
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest62' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest34' already exists) for query 'CREATE TABLE sbtest34(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest29' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest34' already exists
+Creating table 'sbtest63'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest38' already exists) for query 'CREATE TABLE sbtest38(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest38' already exists
+Creating table 'sbtest59'...
+Creating table 'sbtest54'...
+Creating table 'sbtest45'...
+Creating table 'sbtest50'...
+Creating table 'sbtest39'...
+Creating table 'sbtest61'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest64' already exists) for query 'CREATE TABLE sbtest64(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+Creating table 'sbtest51'...
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest64' already exists
+Creating table 'sbtest41'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest59' already exists) for query 'CREATE TABLE sbtest59(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest59' already exists
+Creating table 'sbtest48'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest42' already exists) for query 'CREATE TABLE sbtest42(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest42' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest54' already exists) for query 'CREATE TABLE sbtest54(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest39' already exists) for query 'CREATE TABLE sbtest39(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest50' already exists) for query 'CREATE TABLE sbtest50(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest41' already exists) for query 'CREATE TABLE sbtest41(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest53' already exists) for query 'CREATE TABLE sbtest53(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest61' already exists) for query 'CREATE TABLE sbtest61(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest45' already exists) for query 'CREATE TABLE sbtest45(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest49' already exists) for query 'CREATE TABLE sbtest49(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest50' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest51' already exists) for query 'CREATE TABLE sbtest51(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest41' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest53' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest54' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest61' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest39' already exists
+Creating table 'sbtest58'...FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest49' already exists
+
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest45' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest51' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest63' already exists) for query 'CREATE TABLE sbtest63(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest63' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest58' already exists) for query 'CREATE TABLE sbtest58(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest58' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest48' already exists) for query 'CREATE TABLE sbtest48(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest48' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest1' already exists) for query 'CREATE TABLE sbtest1(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest1' already exists
+Creating table 'sbtest56'...
+Creating table 'sbtest11'...
+Creating table 'sbtest57'...
+Creating table 'sbtest6'...
+Creating table 'sbtest3'...
+Creating table 'sbtest30'...
+Creating table 'sbtest47'...
+Creating table 'sbtest40'...
+Creating table 'sbtest16'...
+Creating table 'sbtest20'...
+Creating table 'sbtest4'...
+Creating table 'sbtest44'...
+Creating table 'sbtest10'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest47' already exists) for query 'CREATE TABLE sbtest47(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+Creating table 'sbtest37'...
+Creating table 'sbtest33'...
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest47' already exists
+Creating table 'sbtest43'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest6' already exists) for query 'CREATE TABLE sbtest6(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest30' already exists) for query 'CREATE TABLE sbtest30(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest16' already exists) for query 'CREATE TABLE sbtest16(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest6' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest3' already exists) for query 'CREATE TABLE sbtest3(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest30' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest4' already exists) for query 'CREATE TABLE sbtest4(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest16' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest56' already exists) for query 'CREATE TABLE sbtest56(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest20' already exists) for query 'CREATE TABLE sbtest20(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest40' already exists) for query 'CREATE TABLE sbtest40(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest4' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest3' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest57' already exists) for query 'CREATE TABLE sbtest57(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest19' already exists) for query 'CREATE TABLE sbtest19(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest20' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest56' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest57' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest40' already exists
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest19' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest11' already exists) for query 'CREATE TABLE sbtest11(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+Creating table 'sbtest46'...
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest11' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest10' already exists) for query 'CREATE TABLE sbtest10(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest10' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest44' already exists) for query 'CREATE TABLE sbtest44(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest44' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest33' already exists) for query 'CREATE TABLE sbtest33(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest33' already exists
+Creating table 'sbtest60'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest43' already exists) for query 'CREATE TABLE sbtest43(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest43' already exists
+Creating table 'sbtest55'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest37' already exists) for query 'CREATE TABLE sbtest37(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest37' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest46' already exists) for query 'CREATE TABLE sbtest46(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest46' already exists
+Creating table 'sbtest52'...
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest60' already exists) for query 'CREATE TABLE sbtest60(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest60' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest55' already exists) for query 'CREATE TABLE sbtest55(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest55' already exists
+FATAL: mysql_drv_query() returned error 1050 (Table 'test.sbtest52' already exists) for query 'CREATE TABLE sbtest52(
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  k INTEGER DEFAULT '0' NOT NULL,
+  c CHAR(120) DEFAULT '' NOT NULL,
+  pad CHAR(60) DEFAULT '' NOT NULL,
+  PRIMARY KEY (id)
+) /*! ENGINE = innodb */ '
+FATAL: `sysbench.cmdline.call_command' function failed: /usr/local/share/sysbench/oltp_common.lua:203: SQL error, errno = 1050, state = '42S01': Table 'test.sbtest52' already exists

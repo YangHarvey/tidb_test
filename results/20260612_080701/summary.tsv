@@ -1,0 +1,2 @@
+timestamp	workload	threads	qps	tps	p95_ms	p99_ms_approx	log_file
+2026-06-12T08:07:46+00:00	oltp_point_select	2048	27209.46	27209.49	147.61	186.540	/home/ec2-user/tidb_test/results/20260612_080701/oltp_point_select_2048t.log
